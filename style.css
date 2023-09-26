@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
 
 .logo{
@@ -24,22 +25,17 @@ main{
 }
 
 
-.divisorecontainer{
-    border-color: whitesmoke;
-    padding-top:  30px;
-
-
-
-}
-
 
 
 .container{
    
     background-color: white;
-    border-radius:  10px 10px 10px 10px;
+    border-radius:  100px 100px 100px 100px;
     width: 900px;
     margin: 0 auto;
+    border: 60px solid whitesmoke;
+   
+
    
    
 }
@@ -81,4 +77,161 @@ main{
   #testogrigio{
 
     color: gray;
+  }
+
+
+.contenutopagina{
+
+    padding-left: 50px;
+  }
+
+
+  ul{
+
+    list-style: none;
+  }
+
+  /* .elementcheck{
+
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(80, 255, 80);
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: green;
+    position: relative;
+    right: 10px;
+    
+  } */
+
+  li{
+
+    line-height: 50px;
+  }
+
+
+
+ .elementcheck::before{
+
+    content: "\2713";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(80, 255, 80);
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: green;
+    position: relative;
+    right: 10px;
+  }
+
+  .elementcross::before{
+
+    content: "\00d7";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid rgb(255, 50, 50);
+    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    color: rgb(217, 10, 10);
+    position: relative;
+    right: 10px;
+  }
+
+
+  .editorial{
+    
+    display: inline-block;
+    background-color: #3a94b4; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 1px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+    
+
+
+  }
+
+
+  .q1goals{
+
+    display: inline-block;
+    background-color: #6d59c6; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+
+
+  }
+
+
+  .recruiting{
+
+    display: inline-block;
+    background-color: #59c65c; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+
+
+  }
+
+
+  .mobile{
+
+    display: inline-block;
+    background-color: #cf9126; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+
+  }
+
+
+  .website{
+
+
+    display: inline-block;
+    background-color: #cf26b9; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+
+    
+  }
+
+
+  .sales{
+
+    display: inline-block;
+    background-color: #8bc978; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 5px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 11px;
+
   }
