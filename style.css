@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+ 
+    
+}
+
+main{
+    background-color: whitesmoke;
+   
+}
+
+
+.divisorecontainer{
+    border-color: whitesmoke;
+    padding-top:  30px;
+
+
+
+}
+
+
+
+.container{
+   
+    background-color: white;
+    border-radius:  10px 10px 10px 10px;
+    width: 900px;
+    margin: 0 auto;
+   
+   
+}
+
+.sectionbotton{
+
+    border-bottom: solid 5px;
+    border-color: whitesmoke;
+    padding: 10px 80px 10px 80px;
+
+}
+
+
+.selectedbutton {
+    background-color: #3a94b4; 
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(255, 255, 255);
+    padding: 10px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+  }
+
+  .unselectedbutton{
+
+    background-color: #ffffff; 
+    border: solid gray;
+    border-radius: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+
+
+  }
+
+
+  #testogrigio{
+
+    color: gray;
+  }
